@@ -1,0 +1,8 @@
+.memory/
+data/
+output-test/
+_backup_pre_apple/
+services/ad-localization/
+*.pdf
+.env.local
+

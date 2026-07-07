@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Environment (contains API keys!)
+.env.local
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Data
+data/users/
+data/
+
+# Local agent artifacts
+.memory/
+output-test/
+
+# Local upload sink (served by /api/upload → /public/uploads)
+/public/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Large binary assets — keep in Notion / 飞书 instead
+*.pdf
+
+# Backup snapshots
+_backup_pre_apple/
